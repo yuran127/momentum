@@ -1,0 +1,4 @@
+/* 숨김 처리를 위한 hidden 클래스 */
+.hidden {
+    display: none;
+}
