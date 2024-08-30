@@ -11,6 +11,14 @@ body {
     background-attachment: fixed;
     height: 100vh;
     color: white;
+    overflow: hidden;
+}
+body img {
+    position: fixed;
+    top: -20%;
+    display: block;
+    width: 100%;
+    z-index: -100;
 }
 
 #clock {
@@ -70,5 +78,3 @@ body {
     display: block;
     font-size: 24px;
 }
-
-fff
