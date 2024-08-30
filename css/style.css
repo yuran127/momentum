@@ -2,3 +2,71 @@
 .hidden {
     display: none;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+
+#clock {
+    font-size: 150px;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+#greeting {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#todo-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#todo-form input[type='text'] {
+    font-size: 24px;
+    padding: 10px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+#todo-list li {
+    font-size: 24px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#quote,
+#weather {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#quote span,
+#weather span {
+    display: block;
+    font-size: 24px;
+}
